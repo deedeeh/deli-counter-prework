@@ -28,7 +28,7 @@ def now_serving(katz_deli)
     #   break
     # end
     puts "Currently serving #{katz_deli.first}."
-    deli.shift
+    katz_deli.shift
   end
 end
 
