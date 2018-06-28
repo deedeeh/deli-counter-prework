@@ -9,7 +9,7 @@ end
 
 def line(katz_deli)
   line = []
-  if katz_deli.size == 0
+  if katz_deli.empty?
     puts "The line is currently empty."
   else
     katz_deli.each_with_index do |person, index|
